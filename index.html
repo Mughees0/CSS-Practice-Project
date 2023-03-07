@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <!-- Navigation -->
+        <nav>
+          <ul class="nav">
+            <img
+              class="nav__item nav__item-1"
+              src="./assets/images/header.svg"
+              alt="Logo"
+            />
+
+            <li class="nav__item nav__item-2">
+              <a href="#home">Home</a>
+            </li>
+            <li class="nav__item nav__item-3">
+              <a href="#services">Services</a>
+            </li>
+            <li class="nav__item nav__item-4">
+              <a href="#tech_stack">Tech Stack</a>
+            </li>
+            <li class="nav__item nav__item-5">
+              <a href="#blogs">Blogs</a>
+            </li>
+            <li class="nav__item nav__item-6">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <!-- main page -->
+        <section class="section">
+          <div class="l-col">
+            <h1 class="l-col-item-1" id="home">Coding</h1>
+            <p class="l-col-item-2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in.
+            </p>
+          </div>
+          <div class="r-col">
+            <img
+              class="r-col-item-1"
+              src="./assets/images/img-2.jpg"
+              alt="image of laptop with code on the screen"
+            />
+          </div>
+        </section>
+        <hr />
+        <!-- services page -->
+        <section class="service-section">
+          <h2 id="services">Services</h2>
+          <p>This a services page description</p>
+
+          <div class="cards-container">
+            <div class="card" role="Card" aria-labelledby="learn">
+              <h3 id="learn" aria-labelledby="learn">Teaching</h3>
+              <p>I can provide teaching services for those who</p>
+              <button id="learn-btn" aria-labelledby="learn learn-btn">
+                learn?
+              </button>
+            </div>
+
+            <div class="card" role="Card" aria-labelledby="blog">
+              <h3 id="blog">Our Blog</h3>
+              <p>I can provide teaching services for those who</p>
+              <button id="read-btn" aria-labelledby="blog read-btn">
+                Read
+              </button>
+            </div>
+
+            <div class="card" role="Card" aria-labelledby="material">
+              <h3 id="material">Free Material</h3>
+              <p>I can provide teaching services for those who</p>
+              <button id="more-btn" aria-labelledby="material more-btn">
+                more material
+              </button>
+            </div>
+          </div>
+        </section>
+        <hr />
+
+        <section class="tech-section">
+          <h2 id="tech_stack" aria-labelledby="stack">Tech Stack</h2>
+          <div class="icons-container" id="stack" role="Stack">
+            <i aria-label="JavaScript-logo" role class="fab fa-js"></i>
+            <i aria-label="HTML5-logo" class="fab fa-html5"></i>
+            <i aria-label="React-logo" class="fab fa-react"></i>
+            <i aria-label="Sass-logo" class="fab fa-sass"></i>
+            <i aria-label="CSS-logo" class="fab fa-css3"></i>
+          </div>
+        </section>
+        <hr />
+        <!-- Blogs page -->
+        <section class="blog-section">
+          <h2 id="blogs">Blogs</h2>
+          <article class="blog-article" aria-labelledby="blog-page-1">
+            <img
+              src="./assets/images/img-1.jpg"
+              width="200"
+              alt="Closeup of a keyboard"
+            />
+
+            <div>
+              <h3 id="blog-page-1">Blog 1</h3>
+              <p>
+                Aliquam faucibus purus in massa tempor nec. Facilisis gravida
+                neque convallis a cras. Pellentesque habitant morbi tristique
+                senectus et netus et malesuada fames. Tortor at auctor urna
+                nunc. Nunc mattis enim ut tellus. Vel turpis nunc eget lorem.
+              </p>
+              <button
+                id="blog-link-btn"
+                aria-labelledby="blog-page-1 blog-link-btn"
+              >
+                Go To The Blog
+              </button>
+            </div>
+          </article>
+          <article class="blog-article" aria-labelledby="blog-page-2">
+            <img
+              src="./assets/images/img-2.jpg"
+              width="200"
+              alt="A laptop with code on the screen"
+            />
+
+            <div>
+              <h3 id="blog-page-2">Blog 2</h3>
+              <p>
+                Aliquam faucibus purus in massa tempor nec. Facilisis gravida
+                neque convallis a cras. Pellentesque habitant morbi tristique
+                senectus et netus et malesuada fames. Tortor at auctor urna
+                nunc. Nunc mattis enim ut tellus. Vel turpis nunc eget lorem.
+              </p>
+              <button
+                id="blog-link-btn"
+                aria-labelledby="blog-page-2 blog-link-btn"
+              >
+                Go To The Blog
+              </button>
+            </div>
+          </article>
+          <article class="blog-article" aria-labelledby="blog-page-3">
+            <img
+              src="./assets/images/img-3.jpg"
+              width="200"
+              alt="Desktop with items"
+            />
+
+            <div>
+              <h3 id="blog-page-3">Blog 3</h3>
+              <p>
+                Aliquam faucibus purus in massa tempor nec. Facilisis gravida
+                neque convallis a cras. Pellentesque habitant morbi tristique
+                senectus et netus et malesuada fames. Tortor at auctor urna
+                nunc. Nunc mattis enim ut tellus. Vel turpis nunc eget lorem.
+              </p>
+              <button
+                id="blog-link-btn"
+                aria-labelledby="blog-page-3 blog-link-btn"
+              >
+                Go To The Blog
+              </button>
+            </div>
+          </article>
+        </section>
+        <hr />
+        <!-- contacts page -->
+        <section class="con-section">
+          <div class="con-form">
+            <h2 id="contact">Contact Form</h2>
+            <form aria-labelledby="form">
+              <label for="name">Name: </label>
+              <input aria-label="Write your fullname" id="name" type="text" />
+
+              <label for="email">Email: </label>
+              <input aria-label="Write your Email" id="email" type="email" />
+
+              <label for="msg">Message: </label>
+              <textarea
+                aria-label="Write your Message"
+                id="msg"
+                cols="30"
+                rows="10"
+              ></textarea>
+
+              <button id="form-submit" aria-labelledby="form form-submit">
+                Submit
+              </button>
+            </form>
+          </div>
+        </section>
+        <hr />
+        <!-- footer -->
+        <footer class="footer-container">
+          <span>&copy; Mughees 2023</span>
+          <ul>
+            <li>
+              <i
+                aria-label="linkedin-icon"
+                class="fa fa-linkedin footer__icons"
+              ></i>
+            </li>
+
+            <li>
+              <i
+                aria-label="facebook-icon"
+                class="fa fa-facebook footer__icons"
+              ></i>
+            </li>
+
+            <li>
+              <i
+                aria-label="github-icon"
+                class="fa fa-github footer__icons"
+              ></i>
+            </li>
+
+            <li>
+              <i
+                aria-label="instagram-icon"
+                class="fa fa-instagram footer__icons"
+              ></i>
+            </li>
+          </ul>
+        </footer>
+      </main>
+    </div>
+
+    <!-- these Icons can be used for the tech stack banner -->
+
+    <script
+      src="https://kit.fontawesome.com/cc4be81cad.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
